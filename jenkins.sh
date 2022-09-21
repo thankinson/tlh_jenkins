@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# for centos 7 
+
 yum update -y
 
 yum -y install java-11-openjdk java-11-openjdk-devel
