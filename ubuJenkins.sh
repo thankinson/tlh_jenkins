@@ -3,8 +3,8 @@
 #########################################
 #                                       #
 # this script is for setting up jenkins #
-# on a ubuntu vm either localy or in    #
-# the cloud.                            # 
+# server on a ubuntu vm either localy   #
+# or in the cloud.                      # 
 #                                       #
 #########################################
 #########################################
