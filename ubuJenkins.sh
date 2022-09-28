@@ -23,6 +23,7 @@
 #########################################
 # updates apt repo
 sudo apt update && sudo apt upgrade -y
+sudo apt-get update
 # installs java
 sudo apt install openjdk-11-jre -y
 # switches to root
@@ -41,18 +42,18 @@ sudo systemctl start jenkins
 ##################################################
 # installs git, docker, python3, pyton-pip, pytest
 sudo apt install -y git 
-sudo apt install -y docker.io 
+# sudo apt install -y docker.io 
 sudo apt install -y python-is-python3 
 sudo apt install -y python3-pip
 sudo apt install -y python3-pytest
 # enables docker to start when server is run
-sudo systemctl enable docker
+# sudo systemctl enable docker
 # starts docker
 sudo systemctl start docker
 # creates docker group
-sudo groupadd docker
+# sudo groupadd docker
 # dose soemthing
-sudo gpasswd -a jenkins docker
+# sudo gpasswd -a jenkins docker
 # restarts docker and jenkins
-sudo service docker restart
+# sudo service docker restart
 sudo service jenkins restart
